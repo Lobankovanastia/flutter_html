@@ -26,7 +26,9 @@ dependencies:
   chewie_audio: ^1.0.0+1
 
   # Plugins for rendering the <svg> tag.
-  flutter_svg: ^0.18.0
+  flutter_svg: 
+    git:
+      url: git://github.com/Lobankovanastia/flutter_svg.git
 
   flutter:
     sdk: flutter
